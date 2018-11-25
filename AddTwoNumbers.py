@@ -18,8 +18,8 @@ class Solution:
             h3 = h3.next
 
         return dumbHead.next
-
+    
 if __name__ == "__main__":
     s = Solution()
-    result = s.addTwoNumbers(ListNode(1), ListNode(2))
+    result = s.addTwoNumbers(ListNode([9,8]), ListNode([1]))
     print(result)
