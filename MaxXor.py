@@ -1,4 +1,8 @@
-from Utils import TreeNode
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
 
 class MaxXor:
     def buildTree(self, arr):
@@ -31,4 +35,6 @@ class MaxXor:
 
         level = 31
         curNode = rootNode
+        max = 0
         while curNode.left != None or curNode.right != None:
+            

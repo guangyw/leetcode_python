@@ -12,3 +12,4 @@ class Solution:
         :rtype: bool
         """
         return root.left.val < root.val and root.val < root.right.val and isValidBST(root.left) and isValidBST(root.right)
+    
